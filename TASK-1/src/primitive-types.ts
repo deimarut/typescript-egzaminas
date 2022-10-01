@@ -9,11 +9,11 @@ TypeScript'e galioja tie patys primityvūs duomenų tipai kaip ir JavaScript'e:
 */
 
 // Kuriant kintamuosius, reikia šiuos tipus priskirti kintamiesiems:
-const height: number = 175.0;
+const height1: number = 175.0;
 const weight: number = 78.2;
 const fullname: string = 'Serbentautas';
 const surname: string = 'Bordiūras';
-const age: number = 19;
+const age1: number = 19;
 const wife: null = null;
 const innerAnimal: undefined = undefined;
 

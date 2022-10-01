@@ -9,11 +9,11 @@ TypeScript'e galioja tie patys primityvūs duomenų tipai kaip ir JavaScript'e:
   * symbol - skirtas unikalioms reikšmėms kurti - šio kurso metu jo nenagrinėsime
 */
 // Kuriant kintamuosius, reikia šiuos tipus priskirti kintamiesiems:
-const height = 175.0;
+const height1 = 175.0;
 const weight = 78.2;
 const fullname = 'Serbentautas';
 const surname = 'Bordiūras';
-const age = 19;
+const age1 = 19;
 const wife = null;
 const innerAnimal = undefined;
 console.group('1. Priskirkite kintamiesiems duomenų tipus');

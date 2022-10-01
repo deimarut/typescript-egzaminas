@@ -4,7 +4,7 @@
     * Array<tipas> -> Array<number>, Array<string>, Array<Person> ir t.t.
 */
 
-type Person = {
+type Person1 = {
   id: string,
   name: string,
   surname: string,
@@ -15,7 +15,7 @@ type Person = {
 
 const numbers: number[] = [1, 2, 3, 4, 5, 6];
 const names: Array<string> = ['Jagnita', 'Kimparas', 'Pitonkas', 'Fasalija'];
-const people: Person[] = [{
+const people: Person1[] = [{
   id: '39304075689',
   name: 'Verundijus',
   surname: 'Bauda',
@@ -37,7 +37,7 @@ const people: Person[] = [{
 }];
 
 // Kaip ir kiti tipai, masyvai gali būti naudojami funkcijų parametrams arba funkcijų grąžinimo tipams aprašyti
-type CreatePeopleArrayFunction = (p1: Person, p2: Person) => Person[];
+type CreatePeopleArrayFunction = (p1: Person1, p2: Person1) => Person1[];
 
 const printStrings = (strings: string[]): void => {
   const printString = (str: string): void => console.log(str);
@@ -73,7 +73,7 @@ console.group('Panaudojimo pavyzdžiai:');
 
   console.group('createPeopleArray');
   {
-    const couple: Array<Person> = createPeopleArray(people[0], people[1]);
+    const couple: Array<Person1> = createPeopleArray(people[0], people[1]);
     console.log(couple);
   }
   console.groupEnd();
